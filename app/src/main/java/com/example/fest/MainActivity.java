@@ -1,5 +1,6 @@
 package com.example.fest;
 
+import android.content.Intent;
 import android.os.Bundle;
 
 import com.google.android.material.floatingactionbutton.FloatingActionButton;
@@ -16,6 +17,7 @@ import android.view.View;
 import com.example.fest.ui.main.SectionsPagerAdapter;
 
 public class MainActivity extends AppCompatActivity {
+    private FloatingActionButton galleryButton;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {

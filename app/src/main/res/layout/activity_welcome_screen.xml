@@ -1,0 +1,254 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/welcome_gradient"
+    android:orientation="vertical"
+
+    android:padding="8dp">
+   <LinearLayout
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:orientation="horizontal">
+       <androidx.cardview.widget.CardView
+
+           android:id="@+id/cv1"
+
+           android:layout_width="wrap_content"
+           android:layout_height="200dp"
+           app:cardBackgroundColor="@android:color/transparent"
+
+           app:cardCornerRadius="8dp"
+           app:cardElevation="3dp"
+           app:cardUseCompatPadding="true"/>
+
+   </LinearLayout>
+
+
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/cv2"
+        android:layout_width="match_parent"
+        android:layout_height="280dp"
+
+
+        app:cardBackgroundColor="@color/cardBG"
+        app:cardCornerRadius="8dp"
+        app:cardElevation="5dp"
+        app:cardUseCompatPadding="true">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="center">
+
+            <TextView
+                android:id="@+id/textView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="48dp"
+                android:fontFamily="@font/ubuntu_medium"
+
+                android:text="UVCE"
+                android:textColor="@color/dark_blue"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.2"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <ImageView
+                android:id="@+id/imageView2"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_marginStart="16dp"
+                android:src="@drawable/c"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.323" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:fontFamily="@font/roboto_light"
+                android:text="onnect"
+                android:textColor="@color/mauve"
+
+
+                android:textSize="46sp"
+                app:layout_constraintStart_toEndOf="@+id/imageView2"
+                app:layout_constraintTop_toTopOf="@+id/textView" />
+
+            <ImageView
+                android:id="@+id/one"
+                android:layout_width="21dp"
+                android:layout_height="5dp"
+                android:layout_marginLeft="52dp"
+                android:src="@drawable/one"
+                android:visibility="visible"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.443" />
+
+            <ImageView
+                android:id="@+id/two"
+                android:layout_width="21dp"
+                android:layout_height="5dp"
+                android:layout_marginLeft="72dp"
+                android:src="@drawable/two"
+                android:visibility="visible"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.443" />
+
+            <ImageView
+                android:id="@+id/three"
+                android:layout_width="21dp"
+                android:layout_height="5dp"
+                android:layout_marginLeft="92dp"
+                android:src="@drawable/three"
+                android:visibility="visible"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.443" />
+
+            <ImageView
+                android:id="@+id/four"
+                android:layout_width="21dp"
+                android:layout_height="5dp"
+                android:layout_marginLeft="112dp"
+                android:src="@drawable/four"
+                android:visibility="visible"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.443" />
+
+            <ImageView
+                android:id="@+id/five"
+                android:layout_width="21dp"
+                android:layout_height="5dp"
+                android:layout_marginLeft="132dp"
+                android:src="@drawable/five"
+                android:visibility="visible"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.443" />
+
+            <ImageView
+                android:id="@+id/six"
+                android:layout_width="21dp"
+                android:layout_height="5dp"
+                android:layout_marginLeft="152dp"
+                android:src="@drawable/six"
+                android:visibility="visible"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.443" />
+
+            <ImageView
+                android:id="@+id/seven"
+                android:layout_width="21dp"
+                android:layout_height="5dp"
+                android:layout_marginLeft="172dp"
+                android:src="@drawable/seven"
+                android:visibility="visible"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.443" />
+
+            <ImageView
+                android:id="@+id/eight"
+                android:layout_width="21dp"
+                android:layout_height="5dp"
+                android:layout_marginLeft="192dp"
+                android:src="@drawable/eight"
+                android:visibility="visible"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.443" />
+
+            <ImageView
+                android:id="@+id/nine"
+                android:layout_width="21dp"
+                android:layout_height="5dp"
+                android:layout_marginLeft="212dp"
+                android:src="@drawable/eight"
+                android:visibility="visible"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.443" />
+
+            <ImageView
+                android:id="@+id/ten"
+                android:layout_width="5dp"
+                android:layout_height="21dp"
+                android:layout_marginLeft="228dp"
+                android:src="@drawable/eleven"
+                android:visibility="visible"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.405" />
+
+            <ImageView
+                android:id="@+id/eleven"
+                android:layout_width="5dp"
+                android:layout_height="21dp"
+                android:layout_marginLeft="228dp"
+                android:src="@drawable/eleven"
+                android:visibility="visible"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.347" />
+
+            <ImageView
+                android:id="@+id/twelve"
+                android:layout_width="21dp"
+                android:layout_height="5dp"
+                android:layout_marginLeft="212dp"
+                android:src="@drawable/ten"
+                android:visibility="visible"
+
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.325" />
+
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/cv3"
+        android:layout_marginStart="150dp"
+        android:layout_width="wrap_content"
+        android:layout_height="233dp"
+
+
+        app:cardBackgroundColor="@android:color/transparent"
+        app:cardCornerRadius="8dp"
+        app:cardElevation="3dp"
+        app:cardUseCompatPadding="true"
+
+
+        />
+
+
+</LinearLayout>

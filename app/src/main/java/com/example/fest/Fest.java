@@ -1,19 +1,31 @@
 package com.example.fest;
 
 public class Fest {
-    private String title,by;
+    private String by;
+    private String title;
     private String content1;
     private String content2;
-    private int image;
+    private boolean tapped;
+
 
     Fest(){}
 
-    public Fest(String title, String content1, String content2, int image, String by) {
+    public Fest(String by, String title, String content1, String content2) {
+        this.by=by;
         this.title = title;
         this.content1 = content1;
         this.content2 = content2;
-        this.image = image;
-        this.by=by;
+        this.tapped =false;
+
+
+    }
+
+    public boolean isTapped() {
+        return tapped;
+    }
+
+    public void setTapped(boolean tapped) {
+        this.tapped = tapped;
     }
 
     public String getBy() {
@@ -48,11 +60,5 @@ public class Fest {
         this.content2 = content2;
     }
 
-    public int getImage() {
-        return image;
-    }
 
-    public void setImage(int image) {
-        this.image = image;
-    }
 }

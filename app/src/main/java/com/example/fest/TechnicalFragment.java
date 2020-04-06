@@ -35,59 +35,37 @@ public class TechnicalFragment extends Fragment {
         RecyclerView.Adapter adapter;
         RecyclerView.LayoutManager manager;
 
-        techFests.add(new Fest("Kagada", "Kagada is a national level technical symposium organised by team IEEE UVCE.Students accross the country take part in this event.",
-                "They get to showcase their technical knowledge and research by means of paper and poster.", R.drawable.commpy,"IEEE UVCE"));
-        techFests.add(new Fest("Inspiron", "Kagada is a national level technical symposium organised by team IEEE UVCE.Students accross the country take part in this event.",
-                "They get to showcase their technical knowledge and research by means of paper and poster.", R.drawable.commpy,"TPO"));
+        techFests.add(new Fest("IEEE UVCE","Kagada", "Kagada is a national level technical symposium organised by team IEEE UVCE.Students accross the country take part in this event.",
+                "They get to showcase their technical knowledge and research by means of paper and poster."));
+        techFests.add(new Fest("TPO","Inspiron", "Kagada is a national level technical symposium organised by team IEEE UVCE.Students accross the country take part in this event.",
+                "They get to showcase their technical knowledge and research by means of paper and poster."));
 
-        techFests.add(new Fest("Impetus", "Kagada is a national level technical symposium organised by team IEEE UVCE.Students accross the country take part in this event.",
-                "They get to showcase their technical knowledge and research by means of paper and poster.", R.drawable.commpy,"IEEE UVCE"));
+        techFests.add(new Fest("IEEE UVCE","Impetus", "Kagada is a national level technical symposium organised by team IEEE UVCE.Students accross the country take part in this event.",
+                "They get to showcase their technical knowledge and research by means of paper and poster."));
+        techFests.add(new Fest("IEEE UVCE","Kagada", "Kagada is a national level technical symposium organised by team IEEE UVCE.Students accross the country take part in this event.",
+                "They get to showcase their technical knowledge and research by means of paper and poster."));
+        techFests.add(new Fest("TPO","Inspiron", "Kagada is a national level technical symposium organised by team IEEE UVCE.Students accross the country take part in this event.",
+                "They get to showcase their technical knowledge and research by means of paper and poster."));
+
+        techFests.add(new Fest("IEEE UVCE","Impetus", "Kagada is a national level technical symposium organised by team IEEE UVCE.Students accross the country take part in this event.",
+                "They get to showcase their technical knowledge and research by means of paper and poster."));
+        techFests.add(new Fest("IEEE UVCE","Kagada", "Kagada is a national level technical symposium organised by team IEEE UVCE.Students accross the country take part in this event.",
+                "They get to showcase their technical knowledge and research by means of paper and poster."));
+        techFests.add(new Fest("TPO","Inspiron", "Kagada is a national level technical symposium organised by team IEEE UVCE.Students accross the country take part in this event.",
+                "They get to showcase their technical knowledge and research by means of paper and poster."));
+
+        techFests.add(new Fest("IEEE UVCE","Impetus", "Kagada is a national level technical symposium organised by team IEEE UVCE.Students accross the country take part in this event.",
+                "They get to showcase their technical knowledge and research by means of paper and poster."));
+        techFests.add(new Fest("IEEE UVCE","Kagada", "Kagada is a national level technical symposium organised by team IEEE UVCE.Students accross the country take part in this event.",
+                "They get to showcase their technical knowledge and research by means of paper and poster."));
+        techFests.add(new Fest("TPO","Inspiron", "Kagada is a national level technical symposium organised by team IEEE UVCE.Students accross the country take part in this event.",
+                "They get to showcase their technical knowledge and research by means of paper and poster."));
+
+        techFests.add(new Fest("IEEE UVCE","Impetus", "Kagada is a national level technical symposium organised by team IEEE UVCE.Students accross the country take part in this event.",
+                "They get to showcase their technical knowledge and research by means of paper and poster."));
 
 
-        techFests.add(new Fest("Kagada", "Kagada is a national level technical symposium organised by team IEEE UVCE.Students accross the country take part in this event.",
-                "They get to showcase their technical knowledge and research by means of paper and poster.", R.drawable.commpy,"IEEE UVCE"));
-        techFests.add(new Fest("Inspiron", "Kagada is a national level technical symposium organised by team IEEE UVCE.Students accross the country take part in this event.",
-                "They get to showcase their technical knowledge and research by means of paper and poster.", R.drawable.commpy,"TPO"));
 
-        techFests.add(new Fest("Impetus", "Kagada is a national level technical symposium organised by team IEEE UVCE.Students accross the country take part in this event.",
-                "They get to showcase their technical knowledge and research by means of paper and poster.", R.drawable.commpy,"IEEE UVCE"));
-
-        techFests.add(new Fest("Kagada", "Kagada is a national level technical symposium organised by team IEEE UVCE.Students accross the country take part in this event.",
-                "They get to showcase their technical knowledge and research by means of paper and poster.", R.drawable.commpy,"IEEE UVCE"));
-        techFests.add(new Fest("Inspiron", "Kagada is a national level technical symposium organised by team IEEE UVCE.Students accross the country take part in this event.",
-                "They get to showcase their technical knowledge and research by means of paper and poster.", R.drawable.commpy,"TPO"));
-
-        techFests.add(new Fest("Impetus", "Kagada is a national level technical symposium organised by team IEEE UVCE.Students accross the country take part in this event.",
-                "They get to showcase their technical knowledge and research by means of paper and poster.", R.drawable.commpy,"IEEE UVCE"));
-
-        techFests.add(new Fest("Kagada", "Kagada is a national level technical symposium organised by team IEEE UVCE.Students accross the country take part in this event.",
-                "They get to showcase their technical knowledge and research by means of paper and poster.", R.drawable.commpy,"IEEE UVCE"));
-        techFests.add(new Fest("Inspiron", "Kagada is a national level technical symposium organised by team IEEE UVCE.Students accross the country take part in this event.",
-                "They get to showcase their technical knowledge and research by means of paper and poster.", R.drawable.commpy,"TPO"));
-
-        techFests.add(new Fest("Impetus", "Kagada is a national level technical symposium organised by team IEEE UVCE.Students accross the country take part in this event.",
-                "They get to showcase their technical knowledge and research by means of paper and poster.", R.drawable.commpy,"IEEE UVCE"));
-        techFests.add(new Fest("Kagada", "Kagada is a national level technical symposium organised by team IEEE UVCE.Students accross the country take part in this event.",
-                "They get to showcase their technical knowledge and research by means of paper and poster.", R.drawable.commpy,"IEEE UVCE"));
-        techFests.add(new Fest("Inspiron", "Kagada is a national level technical symposium organised by team IEEE UVCE.Students accross the country take part in this event.",
-                "They get to showcase their technical knowledge and research by means of paper and poster.", R.drawable.commpy,"TPO"));
-
-        techFests.add(new Fest("Impetus", "Kagada is a national level technical symposium organised by team IEEE UVCE.Students accross the country take part in this event.",
-                "They get to showcase their technical knowledge and research by means of paper and poster.", R.drawable.commpy,"IEEE UVCE"));
-        techFests.add(new Fest("Kagada", "Kagada is a national level technical symposium organised by team IEEE UVCE.Students accross the country take part in this event.",
-                "They get to showcase their technical knowledge and research by means of paper and poster.", R.drawable.commpy,"IEEE UVCE"));
-        techFests.add(new Fest("Inspiron", "Kagada is a national level technical symposium organised by team IEEE UVCE.Students accross the country take part in this event.",
-                "They get to showcase their technical knowledge and research by means of paper and poster.", R.drawable.commpy,"TPO"));
-
-        techFests.add(new Fest("Impetus", "Kagada is a national level technical symposium organised by team IEEE UVCE.Students accross the country take part in this event.",
-                "They get to showcase their technical knowledge and research by means of paper and poster.", R.drawable.commpy,"IEEE UVCE"));
-        techFests.add(new Fest("Kagada", "Kagada is a national level technical symposium organised by team IEEE UVCE.Students accross the country take part in this event.",
-                "They get to showcase their technical knowledge and research by means of paper and poster.", R.drawable.commpy,"IEEE UVCE"));
-        techFests.add(new Fest("Inspiron", "Kagada is a national level technical symposium organised by team IEEE UVCE.Students accross the country take part in this event.",
-                "They get to showcase their technical knowledge and research by means of paper and poster.", R.drawable.commpy,"TPO"));
-
-        techFests.add(new Fest("Impetus", "Kagada is a national level technical symposium organised by team IEEE UVCE.Students accross the country take part in this event.",
-                "They get to showcase their technical knowledge and research by means of paper and poster.", R.drawable.commpy,"IEEE UVCE"));
 
         recyclerView = view.findViewById(R.id.recyler_viewTwo);
         manager = new LinearLayoutManager(view.getContext());

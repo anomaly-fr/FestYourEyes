@@ -1,20 +1,16 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout
-    xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
-    android:id="@+id/linear1"
-    android:layout_width="match_parent"
-    android:layout_height="wrap_content"
 
-    android:orientation="vertical"
-    >
 
     <androidx.cardview.widget.CardView
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/card_front"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
 
-        android:background="@color/cardBG"
+        android:visibility="visible"
 
+        app:cardBackgroundColor="@color/cardBG"
         app:cardCornerRadius="8dp"
         app:cardElevation="5dp"
         app:cardUseCompatPadding="true"
@@ -50,7 +46,7 @@
                 android:padding="5dp"
                 android:text="Fest Name"
                 android:textAlignment="viewStart"
-                android:textColor="@color/dark_pink"
+                android:textColor="@color/orange"
                 android:textSize="20sp"
                 android:textStyle="bold" />
 
@@ -100,7 +96,165 @@ Sample text"
         </LinearLayout>
 
 
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/card_back"
+        android:layout_width="match_parent"
+        android:layout_height="265dp"
+        android:background="@color/cardBGc"
+
+
+        android:visibility="gone"
+
+        app:cardCornerRadius="8dp"
+        app:cardElevation="5dp"
+
+
+        >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="3dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/backby"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_margin="10dp"
+
+
+                android:background="@drawable/aye"
+                android:fontFamily="@font/roboto_medium"
+                android:padding="5dp"
+                android:text="IEEE UVCE"
+                android:textColor="@android:color/white"
+                android:textSize="10dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/backcard_titleTV"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+
+
+                android:fontFamily="@font/roboto_condensed_bold"
+                android:gravity="center"
+                android:padding="5dp"
+                android:text="Fest Name"
+
+                android:textColor="@color/orange"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+
+
+
+
+
+            <TextView
+                android:id="@+id/backcard_content1TV"
+                android:layout_width="match_parent"
+
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:layout_marginTop="25dp"
+                android:fontFamily="@font/roboto_medium"
+                android:gravity="center"
+                android:padding="5dp"
+
+
+                android:text="Contact:"
+                android:textColor="@color/content_text"
+
+                android:textStyle="bold" />
+            <TextView
+
+                android:id="@+id/backcard_content2TV"
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:fontFamily="@font/roboto_medium"
+                android:gravity="center"
+                android:padding="5dp"
+
+
+                android:text="Anam Ali: +91 95353 11386"
+                android:textColor="@color/content_text"
+
+                android:textStyle="bold" />
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_margin="20dp"
+                android:layout_marginTop="50dp"
+
+
+                android:orientation="horizontal">
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_margin="2dp"
+
+
+                    android:layout_marginStart="0dp"
+                    android:orientation="horizontal"
+                    >
+                    <ImageView
+                        android:layout_width="30dp"
+                        android:layout_height="30dp"
+                        android:src="@drawable/facebook"
+                        />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:text="impetusuvce"
+                        android:textStyle="bold"/>
+
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_margin="2dp"
+                    android:orientation="horizontal"
+
+                    >
+                    <ImageView
+                        android:layout_width="30dp"
+                        android:layout_height="30dp"
+                        android:src="@drawable/insta"
+
+                        />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:text="impetus20"
+                        android:textStyle="bold"/>
+
+                </LinearLayout>
+
+
+
+            </LinearLayout>
+
+
+
+
+
+
+        </LinearLayout>
+
+
     </androidx.cardview.widget.CardView>
 
 
-</LinearLayout>
+
+</androidx.cardview.widget.CardView>

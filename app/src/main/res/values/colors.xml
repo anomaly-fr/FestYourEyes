@@ -4,10 +4,14 @@
     <color name="colorPrimaryDark">#00574B</color>
     <color name="colorAccent">#FFFFFF</color>
     <color name="cardBG">#f6f6f6</color>
+    <color name="cardBGt">#CAD5E7</color>
+    <color name="cardBGc">#EEC5D3</color>
     <color name="title_text">#258bd6</color>
     <color name="content_text">#999da4</color>
-    <color name="dark_pink">#D52C65</color>
+    <color name="dark_pink">#d52c65</color>
     <color name="dark_blue">#4f69c6</color>
-    <color name="mauve">#2B0544</color>
+    <color name="mauve">#645394</color>
+    <color name="peach">#ffdfd3</color>
+    <color name="orange">#92B2E7</color>
 
 </resources>
