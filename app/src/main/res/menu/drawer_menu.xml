@@ -5,6 +5,14 @@
     tools:showIn="navigation_view">
     <group android:checkableBehavior="single">
         <item
+            android:id="@+id/profile"
+            android:icon="@drawable/account_circle"
+            android:title="Profile" />
+        <item
+            android:id="@+id/dashboard"
+            android:icon="@drawable/ballot"
+            android:title="View" />
+        <item
             android:id="@+id/add_fest"
             android:icon="@drawable/ic_add_fest"
             android:title="Add Fest" />

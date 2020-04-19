@@ -1,17 +1,24 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     android:orientation="vertical"
     android:layout_width="match_parent"
-    android:layout_height="176dp"
-    android:background="@color/dark_pink"
+    android:layout_height="178dp"
+    android:background="@drawable/welcome_gradient"
     android:gravity="bottom"
     android:padding="16dp"
     android:theme="@style/ThemeOverlay.AppCompat.Dark">
+    <com.mikhaellopez.circularimageview.CircularImageView
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+
+        android:src="@drawable/baby_yoda"
+        />
 
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="UVCE Fests"
+        android:text="Anam Ali"
         android:textColor="@android:color/white"
 
         android:fontFamily="@font/roboto_bold"
@@ -19,7 +26,7 @@
 <TextView
     android:layout_width="wrap_content"
     android:layout_height="wrap_content"
-    android:text="Menu"
+    android:text="anamxali1@gmail.com"
     android:textColor="@android:color/white"
     />
 </LinearLayout>

@@ -62,7 +62,7 @@ public class CulturalFragment extends Fragment {
         galleryButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent = new Intent(getActivity(),CulturalGallery.class);
+                Intent intent = new Intent(getActivity(),ImageGalleryActivity.class);
                startActivity(intent);
               //  Toast.makeText(getContext(),"yes",Toast.LENGTH_SHORT).show();
             }
@@ -71,25 +71,7 @@ public class CulturalFragment extends Fragment {
 
 
 
-//        database.collection("Cultural").get().addOnSuccessListener(new OnSuccessListener<QuerySnapshot>() {
-//            @Override
-//            public void onSuccess(QuerySnapshot queryDocumentSnapshots) {
-//                if(queryDocumentSnapshots.isEmpty()){
-//                  Toast.makeText(getContext(),"Empty list",Toast.LENGTH_SHORT).show();
-//                    return;
-//                }else{
-//                    List<Fest> cultFests = queryDocumentSnapshots.toObjects(Fest.class);
-//                    culturalFests.addAll(cultFests);
-//
-//                }
-//
-//            }
-//        }).addOnFailureListener(new OnFailureListener() {
-//            @Override
-//            public void onFailure(@NonNull Exception e) {
-//                Toast.makeText(getContext(),"Error loading list",Toast.LENGTH_SHORT).show();
-//            }
-//        });
+
         culturalFests.add(new Fest("2nd years","Jaathre","As the name indicates, it's a " +
                 "colourful one day event organised by 2nd years" +
                 "during the month of October. Various collegiate clubs set up their stalls in the quadrangle.","Fun games are conducted " +
@@ -177,30 +159,6 @@ public class CulturalFragment extends Fragment {
     }
 
 
-//    @Override
-//    public void onStart() {
-//        super.onStart();
-//        database.collection("Cultural").get().addOnSuccessListener(new OnSuccessListener<QuerySnapshot>() {
-//            @Override
-//            public void onSuccess(QuerySnapshot queryDocumentSnapshots) {
-//                if(!queryDocumentSnapshots.isEmpty()) {
-//                    for(QueryDocumentSnapshot fests : queryDocumentSnapshots) {
-//                        String festName = fests.getString("Name");
-//                        String festBy = fests.getString("By");
-//                        String festDesc1 = fests.getString("Desc1");
-//                        String festDesc2 = fests.getString("Desc2");
-//                        Fest fest = new Fest(festBy,festName,festDesc1,festDesc2);
-//                        culturalFests.add(fest);
-//
-//                    }
-//                }
-//            }
-//        }).addOnFailureListener(new OnFailureListener() {
-//            @Override
-//            public void onFailure(@NonNull Exception e) {
-//                Toast.makeText(getContext(),"Failed",Toast.LENGTH_SHORT).show();
-//            }
-//        });
 
 
     }

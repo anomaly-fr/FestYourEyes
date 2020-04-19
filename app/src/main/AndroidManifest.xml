@@ -2,6 +2,8 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.example.fest">
 
+    <uses-permission android:name="android.permission.INTERNET" />
+
     <application
         android:name="androidx.multidex.MultiDexApplication"
         android:allowBackup="true"
@@ -10,7 +12,10 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".CulturalGallery"></activity>
+        <activity android:name=".BetterGallery"></activity>
+        <activity android:name=".ImageGalleryActivity" />
+        <activity android:name=".LandingActivity" />
+        <activity android:name=".CulturalGallery" />
         <activity android:name=".WelcomeActivity" />
         <activity android:name=".SplashScreen" />
         <activity android:name=".MainActivity" />
